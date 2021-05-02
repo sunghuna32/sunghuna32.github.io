@@ -13,7 +13,7 @@ url: https://sunghuna32.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline: Wooris의 잡다한 Blog
+tagline: Wooris's Sundries
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -21,8 +21,8 @@ description:  >
   Wooris의 잡다한 Blog
 
 # This should be the same author as first entry in `_data/authors.yml`
-author:
-  name: wooris kwak
+author: Wooris kwak
+  name: Wooris kwak
   email: sunghuna32@gmail.com
 
 # Fallback image and color
@@ -47,13 +47,13 @@ google_fonts:        Lato
 google_analytics:
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    Wooris
+disqus_shortname: Wooris
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2021. by Wooris'
 
 # Format of the permalinks
-permalink:           pretty
+permalink: pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate:            8
