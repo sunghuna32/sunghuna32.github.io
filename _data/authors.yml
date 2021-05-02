@@ -1,9 +1,9 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-sunghuna32:
-  name:              Wooris kwak
-  email:             sunghuna32@gmail.com
+Wooris kwak: Wooris kwak
+  name:      Wooris kwak
+  email:     sunghuna32@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
