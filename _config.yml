@@ -21,7 +21,7 @@ description:  >
   Wooris의 잡다한 Blog
 
 # This should be the same author as first entry in `_data/authors.yml`
-author: Wooris kwak
+author:
   name: Wooris kwak
   email: sunghuna32@gmail.com
 
