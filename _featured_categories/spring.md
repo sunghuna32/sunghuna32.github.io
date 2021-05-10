@@ -1,5 +1,5 @@
 ---
-layout: spring
+layout: list
 title: SPRING
 slug: spring
 menu: true

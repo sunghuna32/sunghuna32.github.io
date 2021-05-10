@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: SPRING_Basic
+title: Spring_Basic
 slug: springbasic
 category: spring
 menu: false

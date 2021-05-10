@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[2021. 05. 12]Section 1_PetClinic"
-subtitle:   "강의에 활용될 PetClinic을 설정 및 살펴본."
+title:  "2021. 05. 12 : Section 1_PetClinic"
+subtitle:   "강의에 활용될 PetClinic을 설정 및 살펴본다."
 categories: spring
 tags: springbasic
 comments : true
