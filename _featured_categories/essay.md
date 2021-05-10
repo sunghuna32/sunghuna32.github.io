@@ -2,9 +2,9 @@
 layout: list
 title: Essay
 slug: essay
-menu: true
+menu: false
 submenu: false
-order: 4
+order: 20
 description: >
   평소 생각과 쓰고싶은 글을 씁니다.
 ---
