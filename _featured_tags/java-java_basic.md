@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: JAVA_Basic
-slug: java_basic
+slug: javabasic
 category: java
 menu: false
 order: 1
