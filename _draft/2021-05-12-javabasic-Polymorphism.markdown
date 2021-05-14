@@ -2,17 +2,15 @@
 layout: post
 title:  "2021. 05. 12 : Section 1_PetClinic"
 subtitle:   "강의에 활용될 PetClinic을 설정 및 살펴본다."
-categories: java
-tags: javabasic
+categories: spring
+tags: springbasic
 comments : true
 ---
-> OOP 3요소 [캡슐화,상속,다형성]에 대해서 살펴보자
+> 강의에 활용될 PetClinic을 설정 및 살펴본다.
 <br>
 > d
 <br>
 > k
-> <br>
-> 다형성 (Polymorphism)
 
 # 스프링 예제 프로젝트 PetClinic
 
