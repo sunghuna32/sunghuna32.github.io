@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: list
 title: ETC
 slug: etc
 menu: true
