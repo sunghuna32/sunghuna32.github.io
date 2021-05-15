@@ -1,11 +1,11 @@
 ---
 layout: list
-title: SPRING
-slug: spring
+title: Algorithm
+slug: algorithm
 menu: true
 submenu: true
-order: 11
+order: 12
 description: >
-  Spring과 관련된 내용 정리
+  Algorithme 풀이
 
 ---

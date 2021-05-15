@@ -6,7 +6,7 @@ categories: tip
 tags: liquor
 
 ---
-
+[2021. 05. 14]build fail 로 인한 RollBack sunghuna32 Yesterday 8:46 오후
 `와인과 여행` 운영자.
 
 5만명 정도의 카페

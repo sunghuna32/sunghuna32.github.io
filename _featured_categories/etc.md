@@ -1,11 +1,11 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: ETC
+slug: etc
 menu: true
 submenu: false
-order: 12
+order: 29
 description: >
-  Algorithme 풀이
+  개발 중 알게 되는 기타 등등을 저장
 
 ---

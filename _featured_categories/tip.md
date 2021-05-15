@@ -1,11 +1,11 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: Tip
+slug: tip
 menu: true
 submenu: false
-order: 12
+order: 30
 description: >
-  Algorithme 풀이
+  개발에 생상선 향상에 도움이 되는 Tip들을 모아놓음
 
 ---
