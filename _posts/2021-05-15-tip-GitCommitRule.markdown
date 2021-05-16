@@ -13,11 +13,11 @@ Git Commit Message Rule에 대해서 정의 하자
 ## Sample
 [2021. 11. 15]Post:Tip_Git Commit message정의
 
-###Classsification
-Blog : Blog관련 글<br> 
-Post : Posting 관련
+### Classsification
+Blog : Blog 수정 시 <br> 
+Post : 글 Post 시
 
-###Category
+### Category
 Java
  - Java Basic
 Spring

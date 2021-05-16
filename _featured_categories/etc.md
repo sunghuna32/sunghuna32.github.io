@@ -6,6 +6,6 @@ menu: true
 submenu: false
 order: 29
 description: >
-  개발 중 알게 되는 기타 등등을 저장
+  공부 중 알게 되는 기타 등등 을 저장
 
 ---
