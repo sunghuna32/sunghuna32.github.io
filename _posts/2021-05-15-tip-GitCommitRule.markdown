@@ -4,6 +4,7 @@ title:  "Git Commit Rules"
 subtitle:   ""
 categories: tip
 tags: tip
+order: 2
 comments : true
 ---
 Git Commit Message Rule에 대해서 정의 하자
