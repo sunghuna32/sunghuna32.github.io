@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "Java Big Picture"
+title:  "Spring Big Picture"
 subtitle:   ""
 categories: spring
 tags: tip
