@@ -4,7 +4,7 @@ title:  "Posting templates"
 subtitle:   ""
 categories: tip
 tags: tip
-order: 1
+order: 2
 comments : true
 ---
 > 마크다운 문법을 활용하여 Posting할때 쓰일 템플릿들을 미리 만들어 놓자 <br>
