@@ -2,7 +2,7 @@
 layout: post 
 title:  "Java Big Picture"
 subtitle:   ""
-categories: java
+categories: spring
 tags: tip
 order: 1
 comments : true
