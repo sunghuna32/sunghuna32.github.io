@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: list
 title: Tip
 slug: tip
 menu: true
