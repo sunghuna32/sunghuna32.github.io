@@ -45,17 +45,17 @@ comments : true
    owner에 나이를 추가해 보기
    
 ### Pet Clinic 과제풀이
-1. first name 으로 검색하게 수정 (완)
-   -> findOwner.html에서 값 바인딩 받아오기
-   -> OwnerController에 바인딩 된 값 파람에 넣어서 더닞기
-   -> OwnerRepository에 서비스 로직 수
-2. key word 를 포함하고 있는 걸로 바꿔 보기 (완)
-   -> @Query("SELECT DISTINCT owner FROM Owner owner left join fetch owner.pets WHERE owner.firstName LIKE CONCAT('%',:firstName,'%')")
+1. first name 으로 검색하게 수정 (완)    
+   -> findOwner.html에서 값 바인딩 받아오기   
+   -> OwnerController에 바인딩 된 값 파람에 넣어서 더닞기  
+   -> OwnerRepository에 서비스 로직 수 
+2. key word 를 포함하고 있는 걸로 바꿔 보기 (완)  
+   -> @Query("SELECT DISTINCT owner FROM Owner owner left join fetch owner.pets WHERE owner.firstName LIKE CONCAT('%',:firstName,'%')")     
    -> @Query("SELECT DISTINCT owner FROM Owner owner left join fetch owner.pets WHERE owner.firstName LIKE % :firstName%")
 3. owner에 나이를 추가해 보기 (실패)   
     -> Owner 도메인 모델에 Age 추가 -> OK   
     -> 스키마와 Data 바꿔주시 -> Miss   
-    => 에러로그 좀 잘 읽자
-    => 그래도 Error
-    => DB가 hsqldb가 아닌 h2 였어!!
-    => 에러로그 좀 잘 읽자
+    => 에러로그 좀 잘 읽자  
+    => 그래도 Error    
+    => DB가 hsqldb가 아닌 h2 였어!!   
+    => 에러로그 좀 잘 읽자  
