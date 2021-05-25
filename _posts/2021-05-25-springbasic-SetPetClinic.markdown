@@ -2,7 +2,7 @@
 layout: post 
 title:  "Set Pet Clnic"
 subtitle:   ""
-categories: springbasic
+categories: spring
 tags: springbasic
 order: 1
 comments : true
