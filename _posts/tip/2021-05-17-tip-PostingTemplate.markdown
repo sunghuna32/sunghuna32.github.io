@@ -29,3 +29,13 @@ comments : true
             b. 들여들여쓰기 문단2
         2)들여쓰기 문단2
 
+### ~~~ 를 황용하여 코드를 쓰자
+~~~ java
+public class RecommendID {
+    public static void main(String[] args)  {
+        System.out.print("Enter ID : ");
+        Scanner inStr = new Scanner(System.in);
+    }
+}
+~~~
+
