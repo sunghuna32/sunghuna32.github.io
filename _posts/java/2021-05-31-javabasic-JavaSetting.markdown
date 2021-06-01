@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "Posting templates"
+title:  "1강 : 자바언어 설명, 설치"
 subtitle:   ""
 categories: java
 tags: javabasic
@@ -15,7 +15,7 @@ comments : true
  - JVM: 바이트코드(.class)를 읽고,검증,실행, 동일한 실행환경을 보장 받는다.
  - JRE: JVM에 자바라이브러리,기타 파일들을 가지고 있음. 자바를 실행하기위한 프로그램.
  - JDK:JRE,컴파일러등 개발도구를 포함하는 프로그램    
-   ![jdktojvm](../assets/img/jdktojvm.png)
+   ![jdktojvm](../../assets/img/jdktojvm.png)
 
 
 ###2. 자바 언어의 특징
