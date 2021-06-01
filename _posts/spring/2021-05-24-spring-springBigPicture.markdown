@@ -3,7 +3,7 @@ layout: post
 title:  "Spring Big Picture"
 subtitle:   ""
 categories: spring
-tags: tip
+tags: spring
 order: 1
 comments : true
 ---
