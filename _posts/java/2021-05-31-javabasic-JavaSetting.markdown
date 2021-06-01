@@ -15,27 +15,24 @@ comments : true
  - JVM: 바이트코드(.class)를 읽고,검증,실행, 동일한 실행환경을 보장 받는다.
  - JRE: JVM에 자바라이브러리,기타 파일들을 가지고 있음. 자바를 실행하기위한 프로그램.
  - JDK:JRE,컴파일러등 개발도구를 포함하는 프로그램    
-   ![jdktojvm]../assets/img/jdktojvm.png
+   ![jdktojvm](../assets/img/jdktojvm.png)
 
 
-### 'tab'을 활용하여 들여쓰기 가능
+###2. 자바 언어의 특징
+ - 단점 : C계열에 비해 속도가 느리다.
+ - 장점 : 객체지향적인 언어다.        
+   => 확장성이 높다.  
+    : Garbage Collector가 자동으로 메모리를 관리한다.    
+        => 개발자가 따로 메모리에 대해서 신경쓸 필요없다    
+    : JRE를 선택사용으로 운영체제에 자유롭다.   
+        => Window, 리눅스 등 OS에 자유롭다.
+   
+###3. 자바 설치 : JAVA8 설치
+ - PASS
 
-### 탭을 활용하여 들여쓰기 Test
-    1. 문단
-        1)들여쓰기 문단1
-            a. 들여들여쓰기 문단1
-                -
-                -
-            b. 들여들여쓰기 문단2
-        2)들여쓰기 문단2
+###4. 이클립스 설치 :
+ - PASS
 
-### ~~~ 를 황용하여 코드를 쓰자
-~~~ java
-public class RecommendID {
-    public static void main(String[] args)  {
-        System.out.print("Enter ID : ");
-        Scanner inStr = new Scanner(System.in);
-    }
-}
-~~~
+###5. JAVA 첫 프로젝트 만들기
+ - PASS
 
