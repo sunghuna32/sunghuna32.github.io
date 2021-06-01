@@ -2,21 +2,21 @@
 layout: post 
 title:  "Posting templates"
 subtitle:   ""
-categories: tip
-tags: tip
+categories: java
+tags: javabasic
 order: 2
 comments : true
 ---
-> 마크다운 문법을 활용하여 Posting할때 쓰일 템플릿들을 미리 만들어 놓자 <br>
-> 참조 : https://eungbean.github.io/2018/06/11/How-to-use-markdown/
+> 자바기본_1강<br>
+> 자바언어 설명, 설치
 
+###1. JVM , JRE, JDK 설명
+ - 자바소스코드 -> 컴파일 -> .class 바이트 코드 생성        
+ - JVM: 바이트코드(.class)를 읽고,검증,실행, 동일한 실행환경을 보장 받는다.
+ - JRE: JVM에 자바라이브러리,기타 파일들을 가지고 있음. 자바를 실행하기위한 프로그램.
+ - JDK:JRE,컴파일러등 개발도구를 포함하는 프로그램    
+   ![jdktojvm]../assets/img/jdktojvm.png
 
-### '#'은 헤더로 사용
-'#' 1.타이틀
-
-'##' 2. 타이틀
-
-'###' 3.타이틀
 
 ### 'tab'을 활용하여 들여쓰기 가능
 
@@ -39,6 +39,3 @@ public class RecommendID {
 }
 ~~~
 
-### 이미지 넣는 법
-`![이미지 이름](이미지 주소)`
-![jdktojvm]../assets/img/jdktojvm.png
