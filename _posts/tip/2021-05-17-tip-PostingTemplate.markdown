@@ -42,3 +42,12 @@ public class RecommendID {
 ### 이미지 넣는 법
 `![이미지 이름](이미지 주소)`
 ![jdktojvm](../assets/img/jdktojvm.png)
+
+
+### Table 만드는 법 
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+
