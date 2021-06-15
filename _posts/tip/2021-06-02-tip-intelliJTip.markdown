@@ -20,11 +20,11 @@ comments : true
 | St     | String | String
 
 ### 단축키 
-| 단축키    | 설명                     |  
-| :----- | :---------------------   | 
-| ctrl + R   | Run application  | 
-| ctrl + D   | Debug application |
-| cmd + Delete   | Delete Line |
-| cmd + D   | Copy Line |
-| cmd(opt) + shift +  ↑(↓)  | Move Line |
+| 단축키    | 설명                     |           |
+| :----- | :---------------------   | :---------------------|
+| ctrl + R   | Run application  |  |
+| ctrl + D   | Debug application | |
+| cmd + Delete   | Delete Line | |
+| cmd + D   | Copy Line | |
+| cmd(opt) + shift +  ↑(↓)  | Move Line | |
 
