@@ -1,70 +1,60 @@
 ---
 layout: post 
-title:  "5-7강 : 조건문, 반복문, 예외처리"
+title:  "8-9강 : 함수, 객체지향프로그래밍"
 subtitle:   ""
 categories: java
 tags: javabasic
 order: 2
 comments : true
 ---
-> 자바기본_5-7강<br>
-> 조건문, 반복문, 예외처리
+> 자바기본_8-9강<br>
+> 8강 : 함수
+> 9강 : 객체지향프로그래밍
 
-### 5강 : 조건문
-1. 조건문이란…?
-    - 참 거짓 을 통해 코드를 선택적으로 실행이 가능한 조건문입니다
-    ~~~ java 
-    if(){
-    } else if(){
-    } else{
-    }
-    ~~~
-    - (조건식)?True일 때 Return : False일 때 Return    
-      : score<10?”10점 이하”:”10점 이상”
-    -  SWITCH(변수) { CASE 조건1 : 실행1 break; CASE조건2 : 실행2 break; }
-    ~~~ java
-     : SWITCH(score) {
-        case 100:
-            sout(“만점입니다.”);
-            break;
-        case 99:
-            sout(“99점입니다.”);
-            break;
-         …
-        default :
-            sout(“111”)
-            break;
-     }
-    ~~~
+### 8강 : 함수
+1. 함수란…?
+    -  특정한 목적, 기능을 하도록 정의된 코드가 모인것
+    - 재사용가능이 높은 것을 함수로 만든다 => 코드의 재사용
 
-###  6강 : 반복문
-1. 반복문이란…?
-    - 반복해서 어떤 작업을 하고자 할 때 간단하게 표현할 수 있게해준다.
+2. 메소드(method)와 함수(function)의 엄밀한 차이
+   - 함수는 독립된 코드. 메소드는 class내에 선언된 함수
+   - 그러나, 구분 없이 막 쓰인다.
 
-2. while
-    - while(boolean){}
-
-3. do-while
-    - 무조건 한번은 실행함. 2번째 실행부터 while문처럼 조건을 체크한다.
-    - do{}while(boolean)
-
-4. for
-    - 몇번 반복할지 정확히 알고있는 경우 while대신 for문을 권장합니다.
-    - for(int i=0; i<10;i++){}
-
-5. for-each
-    - collection에 저장된 모든 값을 사용하여 반복
-    - for(String s : ary){}
-
+3. 사용    
+   - varType methodName (varType varName, varType varName2) {  
+     return returnVar  
+   }
+4. Static
+   - class 에서 바로 호출 가능
+   - static함수에서 static이 아닌 것을 호출 하면 오류가 난다.
+   - static이 아닌 것은 객체를 만들어서 호출을 해주어야 한다.
 
    
-###  7강 :예외처리
- - 예외처리란…? 오류가 발생할 만한 데에 사용하여 오류를 쉽게 찾고 수정할 수있게 끔 한다. 프로그램이 멈추지 않게 한다.
- - try, catch, finally를 사용
- - try{실행코드} catch (exception종류 변수){오류처리코드} finally{}
- - throw를 통해 오류를 던질 수 있다.
- - finally는 오류 발생 여부와 상관 없이 작동함
- - exception을 상속받은 class 를 통해서 특정 오류만 잡아내는 것도 가능
- - catch 로 명시적으로 하지 않고 Throw Exception을 통해서 콜한 함수에서 수행하게 할 수도 있다.
-
- 
+###  9강 : 객체지향프로그래밍
+1. 객체지향프로그래밍이란…?  
+   - 현실 세계의 모든 것을 사물을 객체=Class로서 바라보는 것
+2. Member 변수
+   - class 내부에 선언된 변수?
+3. 생성자 (Constructor)
+   - 멤버의 초기화 등을 사용할때 사용
+~~~java   
+   public class ClassName (){  
+      member1 ,member2;  
+      public ClassName(varType varName){     
+      member1 = varName
+      }
+   }
+~~~
+4.  접근 제어자 요약
+- private: private로 선언된 함수,맴버변수,생성자는 선언된 클래스내부에서만 접근 가능.
+- public: public으로 선언된 클래스,함수,맴버 변수,생성자는 모든 다른 클래스에서 접근 가능.
+- default: private,public등 접근 제어자 미사용시 클래스,함수,맴버변수,생성자는 동일한 패키지에서만 접근 가능.
+- protected: 함수,맴버변수,생성자는 동일패키지 또는 다른 패키지의 하위 클래스에서만 접근 가능.    
+   =>접근권한 범위:public>protected>default>private
+- final: 클래스에 사용시 다른 클래스에서 상속 불가능.
+  메소드,멤버 변수에 사용시 오버라이딩,수정 불가.
+- static: 메소드,멤버 변수에 사용. 클래스에 속하게되며 객체의 생성없이 바로 접근가능.
+- abstract: 클래스에 사용시 객체생성 불가능. 오직 다른클래스가 상속받아서 사용해야함.
+  메소드에 사용시 오직 abstract 클래스에서만 abstract 메소드 정의가능. 메소드
+  바디(중괄호)부분이 없음.     
+  (메소드의 예: abstract void run(); 바디부분은 상속받은 곳에서 기능에 맞게 작성.)
