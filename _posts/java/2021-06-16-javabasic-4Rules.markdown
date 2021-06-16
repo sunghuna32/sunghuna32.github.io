@@ -80,7 +80,9 @@ public class OOPTest {
 }
 ~~~
 
->[output]   
-> Init객체 |Type : 자동차 |Position : 0 |Maker : null |Name : null   
-> 변화후객체 |Type : 자동차 |Position : 1 |Maker : BMW |Name : 붕붕이
+~~~
+Init객체 |Type : 자동차 |Position : 0 |Maker : null |Name : null   
+변화후객체 |Type : 자동차 |Position : 1 |Maker : BMW |Name : 붕붕이
+~~~
 
+### 11강 : 상속 (Inheritance)
